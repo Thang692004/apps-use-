@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 const foodConfig = AppConfig(
   appName: 'FoodExpress',
   slogan: 'Fast Delivery Everyday',
-  logoPath: 'assets/images/logo.png',
+  logoPath: 'assets/images/logo.jpg',
   primaryColor: Color(0xFFD32F2F),
   secondaryColor: Color(0xFFFF7043),
   backgroundColor: Color(0xFFFFF5F5),

@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 import 'config/app_a_config.dart';
+import 'providers/member_provider.dart';
 import 'screens/fitness_dashboard_screen.dart';
 
 class AppA extends StatelessWidget {
@@ -10,27 +11,23 @@ class AppA extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ChangeNotifierProvider(
-      create:
-          (_) => AuthProvider(
-        webClientId:
-        fitnessConfig
-            .webClientId,
-      ),
-
-      child: MaterialApp(
-        debugShowCheckedModeBanner:
-        false,
-
-        theme: AppTheme.buildTheme(
-          fitnessConfig,
+    return MultiProvider(
+      providers: [
+        ChangeNotifierProvider(
+          create: (_) => AuthProvider(
+            webClientId: fitnessConfig.webClientId,
+          ),
         ),
-
+        ChangeNotifierProvider(
+          create: (_) => MemberProvider(),
+        ),
+      ],
+      child: MaterialApp(
+        debugShowCheckedModeBanner: false,
+        theme: AppTheme.buildTheme(fitnessConfig),
         home: LoginScreen(
           config: fitnessConfig,
-
-          nextScreen:
-          const FitnessDashboardScreen(),
+          nextScreen: const FitnessDashboardScreen(),
         ),
       ),
     );
