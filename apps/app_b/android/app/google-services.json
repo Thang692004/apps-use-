@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "1087180467328",
+    "project_id": "food-delivery-management-bc5eb",
+    "storage_bucket": "food-delivery-management-bc5eb.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087180467328:android:d20e7e71c08f369d914a65",
+        "android_client_info": {
+          "package_name": "com.example.app_b"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087180467328-m3074oc34uomkh4f9t5eg912gpik3tr1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8-G6lVtQSVty9FgRxQfA2OmLe-8J_cT8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087180467328-m3074oc34uomkh4f9t5eg912gpik3tr1.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1087180467328-2v5qqfp1ifbkvj2km5q1dvohq1d4pq9d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.appb"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

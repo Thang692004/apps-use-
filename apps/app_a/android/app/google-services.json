@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "19011937799",
+    "project_id": "fitness-managemnt",
+    "storage_bucket": "fitness-managemnt.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:19011937799:android:ae9bd82f140b1f5a5aeca2",
+        "android_client_info": {
+          "package_name": "com.example.app_a"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "19011937799-mn9atab8i8uuktraiijesjaflhi6louh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpVG8R1G9UFbfd4otpJqSrflJsofKtGDs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "19011937799-mn9atab8i8uuktraiijesjaflhi6louh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "19011937799-a67q30672l074d0rr1etacmv8ov9vhjf.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.appa"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,13 @@
+name: apps_use_monorepo
+
+packages:
+  - apps/**
+  - packages/**
+
+scripts:
+  analyze:
+    run: melos exec -- dart analyze
+
+  test:
+    run: melos exec -- flutter test
+sdkPath: .fvm/flutter_sdk
